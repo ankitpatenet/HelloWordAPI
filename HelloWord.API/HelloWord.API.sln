@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord.API", "HelloWord.API\HelloWord.API.csproj", "{B005C3E0-B5ED-4AEF-BD7C-324D7D9E3034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord.API.Tests", "HelloWord.API.Tests\HelloWord.API.Tests.csproj", "{53C422C5-2AA0-4EEA-8C26-C930C05EA589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord.DomainModels", "HelloWord.DomainModels\HelloWord.DomainModels.csproj", "{70A601C1-5D4B-40BE-9431-804ADAD2CEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord.DataAdapters", "HelloWord.DataAdapters\HelloWord.DataAdapters.csproj", "{5F5E8136-8D72-4A40-BF5B-F68F424A27C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{E3A92B07-CF7F-4C15-8282-01B2548FE6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord.Repositories", "HelloWord.Repositories\HelloWord.Repositories.csproj", "{BB15DCFA-F525-4CB3-8FB8-111FE75242B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A72F5D09-B657-46DF-B95D-D0F2733D44F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAdapters", "DataAdapters", "{776C7858-F4B6-423E-B104-F4C1AC2089D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModels", "DomainModels", "{39294C16-F538-4A40-95EB-5619EE77B771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1AF0AD94-AE21-450E-A921-384360CCC3B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B005C3E0-B5ED-4AEF-BD7C-324D7D9E3034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B005C3E0-B5ED-4AEF-BD7C-324D7D9E3034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B005C3E0-B5ED-4AEF-BD7C-324D7D9E3034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B005C3E0-B5ED-4AEF-BD7C-324D7D9E3034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C422C5-2AA0-4EEA-8C26-C930C05EA589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C422C5-2AA0-4EEA-8C26-C930C05EA589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C422C5-2AA0-4EEA-8C26-C930C05EA589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C422C5-2AA0-4EEA-8C26-C930C05EA589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A601C1-5D4B-40BE-9431-804ADAD2CEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A601C1-5D4B-40BE-9431-804ADAD2CEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A601C1-5D4B-40BE-9431-804ADAD2CEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A601C1-5D4B-40BE-9431-804ADAD2CEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5E8136-8D72-4A40-BF5B-F68F424A27C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5E8136-8D72-4A40-BF5B-F68F424A27C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5E8136-8D72-4A40-BF5B-F68F424A27C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5E8136-8D72-4A40-BF5B-F68F424A27C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB15DCFA-F525-4CB3-8FB8-111FE75242B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB15DCFA-F525-4CB3-8FB8-111FE75242B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB15DCFA-F525-4CB3-8FB8-111FE75242B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB15DCFA-F525-4CB3-8FB8-111FE75242B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B005C3E0-B5ED-4AEF-BD7C-324D7D9E3034} = {A72F5D09-B657-46DF-B95D-D0F2733D44F9}
+		{53C422C5-2AA0-4EEA-8C26-C930C05EA589} = {1AF0AD94-AE21-450E-A921-384360CCC3B4}
+		{70A601C1-5D4B-40BE-9431-804ADAD2CEAF} = {39294C16-F538-4A40-95EB-5619EE77B771}
+		{5F5E8136-8D72-4A40-BF5B-F68F424A27C2} = {776C7858-F4B6-423E-B104-F4C1AC2089D3}
+		{BB15DCFA-F525-4CB3-8FB8-111FE75242B0} = {E3A92B07-CF7F-4C15-8282-01B2548FE6BE}
+	EndGlobalSection
+EndGlobal

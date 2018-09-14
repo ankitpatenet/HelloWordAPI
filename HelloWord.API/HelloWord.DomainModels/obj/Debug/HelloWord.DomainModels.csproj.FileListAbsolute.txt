@@ -1,0 +1,5 @@
+c:\users\apatel\documents\visual studio 2015\Projects\HelloWord.API\HelloWord.DomainModels\bin\Debug\HelloWord.DomainModels.dll
+c:\users\apatel\documents\visual studio 2015\Projects\HelloWord.API\HelloWord.DomainModels\bin\Debug\HelloWord.DomainModels.pdb
+c:\users\apatel\documents\visual studio 2015\Projects\HelloWord.API\HelloWord.DomainModels\obj\Debug\HelloWord.DomainModels.dll
+c:\users\apatel\documents\visual studio 2015\Projects\HelloWord.API\HelloWord.DomainModels\obj\Debug\HelloWord.DomainModels.pdb
+c:\Users\apatel\Documents\Visual Studio 2015\Projects\HelloWord.API\HelloWord.DomainModels\obj\Debug\HelloWord.DomainModels.csprojResolveAssemblyReference.cache
